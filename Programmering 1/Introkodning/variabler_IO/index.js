@@ -17,4 +17,13 @@ medelvärde = (tal1+tal2+tal3)/3
 
 console.log(`${tal1}+${tal2}+${tal3}/3 =${medelvärde}`)
 
-let langd = prompt("ange värdet för rektangelns längd")
+let bredd = prompt("ange bredden för rektangeln")
+let langd = prompt("ange längden för rektangeln")
+
+let area = bredd*langd
+
+console.log (`bredden på rektangeln ör ${bredd} l.e`)
+
+console.log (`Längden på rektangeln ör ${langd} l.e`)
+
+console.log (`Arean på rektangeln ör ${area} a.e`)
