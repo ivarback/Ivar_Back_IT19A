@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <form action="mailto:ivar.back@elev.ga.ntig.se" method="get" enctype="text/plain">
+<h1>Ivarposten</h1>
+<p> Fyll i dina uppgifter nedan för att gå med i Ivarposten</p>
+
+<hr>
+<table>
+
+    <tr>
+    <td><label for="email">Email</label></td>
+   
+    <td><input type="email" placeholder="E-post" name="email" id="email" required></td>
+    </tr>
+
+
+<tr>
+    <td><label for="psw">Lösenord</label></td>
+    <td><input type="password" placeholder="Lösenord" name="psw" id="psw" required></td>
+</tr>
+
+<tr>
+    <td><label for="psw-repeat">Skriv lösenord igen</label></td>
+    <td><input type="password" placeholder="Lösenord igen" name="psw-repeat" id="psw-repeat" required></td>
+</tr>
+
+<tr>
+    <td><label for="brev">Hur många brev i veckan?</label></td>
+    <td><select id="brev" name="brev">
+        <option value="1brev">1</option>
+        <option value="2brev">2</option>
+        <option value="3brev">3</option>
+    </td>
+        </select>
+    </tr>
+
+<tr>
+   <td> <label for="reklam">Vill du ha reklam?</label></td>
+    <td><input type="checkbox"></td>
+
+</tr>
+    
+
+
+<tr>
+<td><label for="textruta">Favoritnyheter</label></td>
+<td><input type="text" id="textruta" name="textruta" placeholder="Jag tycker om..."></td>
+</tr>
+
+<tr>
+<td><label for="tid"> När vill du sluta prenumerera?</label></td>
+<td><input type="date" id="tid" name="tid" required></td>
+</tr>
+
+<tr>
+<td><button type="reset" class="rensa">Rensa</button></td>
+<td>   <button type="submit" class="register">Klar</button></td>
+</tr>
+
+    
+
+</table>
+    
+
+
+
+
+
+
+</form>
+</body>
+</html>

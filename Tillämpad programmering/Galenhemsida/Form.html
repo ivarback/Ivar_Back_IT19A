@@ -7,13 +7,18 @@
 </head>
 <body>
     
- <form action="mailto:ivar.back@elev.ga.ntig.se" method="get" enctype="text/plain"></form>
+ <form action="mailto:ivar.back@elev.ga.ntig.se" method="get" enctype="text/plain">
 <h1>Ivarposten</h1>
 <p> Fyll i dina uppgifter nedan för att gå med i Ivarposten</p>
+
 <hr>
+<table>
 <div>
+    <tr>
     <label for="email">Email</label>
+   
     <input type="email" placeholder="E-post" name="email" id="email" required>
+
 </div>
 <div>
     <label for="psw">Lösenord</label>
@@ -43,18 +48,28 @@
 
 <div>
 <label for="textruta">Favoritnyheter</label>
-<input type="text">
+<input type="text" id="textruta" name="textruta" placeholder="Jag tycker om...">
+
 </div>
 
 <div>
 <label for="tid"> När vill du sluta prenumerera?</label>
-<input type="date" id="tid" name="tid">
+<input type="date" id="tid" name="tid" required>
 
 </div>
 
 <div>
-    <input type="submit" name="Klar" id="Klar" placeholder="Klar">
+<label for= "klar"> Skicka in</label>
+   <button type="submit" class="register">Klar</button>
 </div>
+<div>
+
+
+    <label for="rensa">Rensa uppgifter</label>
+    <button type="reset" class="rensa">Rensa</button>
+</div>
+</table>
+    
 
 
 
