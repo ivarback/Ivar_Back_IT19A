@@ -6,35 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-        <style>
-            
+    <style>
         table {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin-left: 30%;
-}
-        </style>
-<style>
+            background-color: blue;
+            margin: 30px;
+            border: 2px solid black;
 
-    header {
-        background-color: rgb(182, 182, 182);
-        width: 300px;
-        border: rgb(0, 0, 0);
-        padding: 50px;
-        margin-left 30
-    }
-</style>
-
+        }
+    </style>
 
  <form action="mailto:ivar.back@elev.ga.ntig.se" method="get" enctype="text/plain">
+
+
+     
+<table>
+    
     <tr>
-<header>Ivarposten</header>
+        <td><h1>Ivarposten</h1></td>
+        <hr>
+        <td>Fyll i dina uppgifter nedan för att gå med i Ivarposten</td>
+        
+    </tr>
+    
+    
+    
     <tr>
     <td><label for="email">Email</label></td>
-   
+
     <td><input type="email" placeholder="E-post" name="email" id="email" required></td>
     </tr>
 
@@ -64,7 +62,7 @@
     <td><input type="checkbox"></td>
 
 </tr>
-    
+
 
 
 <tr>
@@ -76,15 +74,23 @@
 <td><label for="tid"> När vill du sluta prenumerera?</label></td>
 <td><input type="date" id="tid" name="tid" required></td>
 </tr>
-</table>
+
 <tr>
-<button type="reset" class="rensa">Rensa</button>
-   <button type="submit" class="register">Klar</button>
+<td><button type="reset" class="rensa">Rensa</button></td>
+<td>   <button type="submit" class="register">Klar</button></td>
+</tr>
+
+
+
+</table>
 
 
 
 
-    </table>
-    </form>
+
+
+
+
+</form>
 </body>
 </html>
