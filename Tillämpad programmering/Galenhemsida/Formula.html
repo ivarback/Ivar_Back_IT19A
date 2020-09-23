@@ -5,26 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<form action="mailto:ivar.back@elev.ga.ntig.se" method="get" enctype="text/plain">
+    <body style="background-color:orange;"></body>
 <body>
     <style>
         table {
-            background-color: blue;
-            margin: 30px;
+            background-color: gainsboro;
+            margin: auto;
             border: 2px solid black;
+            width: 600px;
+        }
+
+        header {
+            background-color: gainsboro;
+            border: 2px solid black;
+            width: 800px;
+            margin: auto;
+            margin-bottom: 15px;
+            height: 50px;
+        }
+
+        footer{
+            background-color: gainsboro;
+            border: 2px solid black;
+            width: 800px;
+            margin: auto;
+            margin-top: 15px;
+            height: 50px;
 
         }
+        header {text-align: center;
+        }
+        footer {text-align: center;
+        }
+    
+
+
     </style>
 
- <form action="mailto:ivar.back@elev.ga.ntig.se" method="get" enctype="text/plain">
+<header>
+<h2>Header</h2>
+</header>
+
+
 
 
      
 <table>
     
     <tr>
-        <td><h1>Ivarposten</h1></td>
-        <hr>
+        <td><h2>Ivarposten</h2></td>
+
         <td>Fyll i dina uppgifter nedan för att gå med i Ivarposten</td>
+        
         
     </tr>
     
@@ -79,10 +113,11 @@
 <td><button type="reset" class="rensa">Rensa</button></td>
 <td>   <button type="submit" class="register">Klar</button></td>
 </tr>
-
-
-
 </table>
+
+<footer>
+    <h2>Footer</h2>
+</footer>
 
 
 
