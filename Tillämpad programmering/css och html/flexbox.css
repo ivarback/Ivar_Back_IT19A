@@ -1,0 +1,27 @@
+
+
+header, nav, article, footer {
+    border:4px solid rgb(0, 0, 0);
+    text-align:center;
+    background:rgb(194, 47, 47);
+    margin:5px;
+}
+section{
+    display:flex; 
+    margin:0;
+}
+nav{
+    flex:1;
+}
+article{
+    flex:2;
+}
+
+footer{
+    flex:3;
+}
+@media only screen and (max-width: 660px) {
+    section {
+      flex-direction:column;
+    }
+  }
