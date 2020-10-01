@@ -1,4 +1,4 @@
-header, nav, article, aside, footer {
+header, nav, article, footer {
     border:1px solid black;
     text-align:center;
     background:rgb(194, 28, 28);
@@ -8,13 +8,14 @@ header, nav, article, aside, footer {
 section{
     display:flex; 
     margin:0;
+    overflow: hidden;
 }
 /*size of nav, artivle, aside*/
 nav{
     flex:1;
 }
 article{
-    flex:3;
+    flex:2;
 }
 
 footer{
@@ -26,3 +27,8 @@ footer{
       flex-direction:column;
     }
   }
+
+li{display:block;
+
+}
+  
