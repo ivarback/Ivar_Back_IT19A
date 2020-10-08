@@ -26,10 +26,32 @@ let stad = prompt ("Vilken stad bor du i?")
 
 let nummer = prompt ("Vad är ditt telefonnummer?")
 
-console.log (`Information`)
 
-console.log (`Namn: ${namn}`)
-console.log (`Ålder: ${ålder}`)
-console.log (`Adress: ${adress} ${postnummer}`)
-console.log (`Telefon: ${nummer} `)
+let p_namn = document.querySelector("#namn")
+p_namn.innerHTML = (`namn; ${namn}`)
+
+let p_ålder = document.querySelector("#ålder")
+p_ålder.innerHTML = (`ålder; ${ålder}`)
+
+let p_adress = document.querySelector("#adress")
+p_adress.innerHTML = (`adress; ${adress}`)
+
+let p_postnummer = document.querySelector("#postnummer")
+p_postnummer.innerHTML = (`postnummer; ${postnummer}`)
+
+let p_stad = document.querySelector("#stad")
+p_stad.innerHTML = (`stad; ${stad}`)
+
+let p_nummer = document.querySelector("#nummer")
+p_nummer.innerHTML = (`nummer; ${nummer}`)
+
+
+
+
+
+//console.log (`Information`)
+//console.log (`Namn: ${namn}`)
+//console.log (`Ålder: ${ålder}`)
+//console.log (`Adress: ${adress} ${postnummer}`)
+//console.log (`Telefon: ${nummer} `)
 
