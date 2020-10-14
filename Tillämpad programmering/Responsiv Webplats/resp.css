@@ -26,6 +26,7 @@ footer{
 .rubriker {
     background-color: rgb(2, 2, 2);
 }
+
 a:link, a:visited {
     margin: 0px 10px 0px 10px;
     background-color: rgb(253, 161, 80);
@@ -42,12 +43,22 @@ a:hover, a:active {
     color: black;
   }
   
-img{
-    height: 600px;
-    width: 400px;
+.gru{
+      height: 100px;
+      width: 550px;
+      border:7px solid rgb(0,0,0);
+      border-radius: 10px;
+  }
+.minionbild{
+    height: 550px;
+    width: 550px;
     border:7px solid rgb(0,0,0);
     border-radius: 10px;
+    margin-top: 10px;
     
+}
+.dummaMejText{
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 660px) {
