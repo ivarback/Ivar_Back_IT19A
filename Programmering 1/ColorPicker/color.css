@@ -1,0 +1,7 @@
+#rektangel {
+    width: 15rem;
+    height: 15rem;
+    border: 3px solid black;
+    background-color: pink;
+    border-radius: 10rem;
+}
