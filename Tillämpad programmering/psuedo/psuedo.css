@@ -2,12 +2,19 @@
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+
+body{
+    background: rgb(245,139,87);
+background: linear-gradient(180deg, rgba(245,139,87,1) 52%, rgba(255,255,255,1) 100%);
+height: px;
+}
+
 header, nav, article, footer {
     border:4px solid rgb(0, 0, 0);
     text-align:center;
     background:rgb(253, 161, 74);
     margin:3px;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 section{
     display:flex; 
@@ -16,12 +23,18 @@ section{
 nav{
     flex:1;
 }
-#bild1{
+
+/*------------------------1-----------------------------*/
+#wrapper1{
     background-image: url("alig.jpg");
     height:500px;
+    width: 300px;
+    margin: 10px;
 }
 #westside{
-    margin-top: 100;
+    height: auto;
+    width: 280px;
+
 }
 
 .forgrund{
@@ -31,16 +44,87 @@ border:2px solid rgb(0,0,0);
 #text1{
     visibility: hidden;
     font-size: 30px;
-    color: rgb(63, 54, 185);
+    color: black;
+    background-color: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#bild1:hover #text1{
-    visibility: visible;
+/*-------------------------2------------------------------*/
+
+#heyegg{
+   width: 280px;
+   height: auto;
+
 }
 
-#bild1:hover #westside{
+#text2 {
     visibility: hidden;
+    font-size: 30px;
+    position: absolute;
+    background-color: white;
+    margin-left: 120px;
 }
+#wrapper2{
+    background-image: url("nyckelpiga.jpg");
+    height:500px;
+    width: 300px;
+    margin: 10px;
+}
+
+/*------------------------3--------------------------------*/
+
+#wrapper3{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,75,80,1) 14%, rgba(18,61,124,1) 28%, rgba(123,25,124,1) 35%, rgba(34,15,123,1) 44%, rgba(24,120,126,1) 57%, rgba(142,66,137,1) 70%, rgba(0,212,255,1) 100%);
+margin: 10px;
+height:500px;
+width: 300px;   
+}
+
+#smiley{
+    height: auto;
+    width: 280px;
+    position:
+}
+
+
+
+
+
+#wrapper2:hover #text2{
+    visibility: visible;
+    position:
+}
+
+#wrapper2:hover #heyegg{
+    visibility: hidden;
+    position:
+}
+
+#wrapper1:hover #text1{
+    visibility: visible;
+    margin-top: 100px;
+    position:
+}
+
+#wrapper1:hover #westside{
+    visibility: hidden;
+    position:
+}
+
+
+
+
+
+
+  
+  
+  #bild3:hover #text3 {
+    visibility: visible;
+    opacity: 1;
+  }
 
 
 @media only screen and (max-width: 660px) {
