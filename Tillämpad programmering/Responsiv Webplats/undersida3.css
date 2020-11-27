@@ -10,11 +10,18 @@ section{
     display:flex; 
     margin:0;
 }
-nav{
+.bildnav{
     flex:1;
+    background-image: url("https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif") ;
 }
-article{
+.bildarticle{
     flex:1;
+    background-image: url("https://i.ytimg.com/vi/4GaHn08BXQw/maxresdefault.jpg");
+}
+
+.model{
+  height: 200px;
+  width: 200px;
 }
 
 footer{
