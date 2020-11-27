@@ -6,29 +6,32 @@ let knapp = document.querySelector("#knapp")
 let p_rak = document.getElementById("rak")
 
 let p_reverse = document.getElementById("reverse")
-knapp.addEventListener("click",Palindrom)
+
+let p_result = document.getElementById("result")
+
+knapp.addEventListener("click", Palindrom)
 
  function Palindrom() {
-    let string = ("Banan");
+
+    let string = document.querySelector("#input").value
     let res = string.split("");
-    res=res.join("")
-    console.log (res)
+    
+    console.log(res)
    
-    
-    p_rak.innerHTML += res
-    
-    let rev = res.reverse("");
-    rev=rev.join("")
-    console.log (rev)
-    
+    p_rak.innerHTML = string
+    let rev = string.split("").reverse()
+    console.log(rev)
 
-    p_reverse.innerHTML += rev
+    p_reverse.innerHTML = rev.join("")
 
-
-    if (res == rev){
+    if (res.join("") === rev.join("")){
         console.log("Palindrom")
+        p_result.innerHTML = "Palindrom"
+        p_result.style.color = "green"
     } else {
         console.log("INTE")
+        p_result.innerHTML = "Inte en palindrom"
+        p_result.style.color = "red"
     }
     
 
