@@ -12,7 +12,7 @@ section{
     margin:0;
 }
 nav {
-    flex: 1rem;
+    flex: 1;
 }
 article{
     flex: 2;
