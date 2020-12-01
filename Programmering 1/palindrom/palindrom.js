@@ -1,5 +1,4 @@
 
-//split() och reverse() och join()
 
 let knapp = document.querySelector("#knapp")
 
