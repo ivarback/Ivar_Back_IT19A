@@ -15,7 +15,7 @@ knapp.addEventListener("click", Palindrom)
     let string = document.querySelector("#input").value
     let res = string.split("");
     
-    console.log(res)//skriv ut i konsol
+    console.log(res)//skriv ut i kons
    
     p_rak.innerHTML = string
     let rev = string.split("").reverse()
