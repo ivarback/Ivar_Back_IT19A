@@ -1,10 +1,27 @@
-knapp.addEventListener("click", tarningen)
+ knapp.addEventListener("click", tarningen)
 
- function tarningen() {
-    document.getElementById("result").innerHTML =
-    Math.floor(Math.random() * 6) + 1; 
+function tarningen() {
+   document.getElementById("result").innerHTML =
+   Math.floor(Math.random() * 6) + 1; 
+   
+let sexor = 0
 
- }
+    for (let i = 0; i < 100; i++){
+       let tärning = Math.floor(Math.random() * 6) + 1;
+       
+       if (tärning == 6){
+          sexor++;
+       }
+    }
+
+
+console.log(`Antalet sexor är: ${sexor}`)
+   }
+
+
+
+
+
 
  let p_myntflip = document.getElementById("myntflip") 
 
