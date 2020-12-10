@@ -46,3 +46,42 @@ console.log(`Antalet sexor är: ${sexor}`)
    p_myntflip.innerHTML = "Tails"
 }
  }
+
+
+
+
+let p1result = 0
+let p2result = 0
+
+ dice_p1.addEventListener("click", diceGameP1)
+
+ function diceGameP1() {
+    p1result = Math.floor(Math.random() * 6) + 1; 
+    document.getElementById("p1result").innerHTML = p1result
+   }
+   dice_p2.addEventListener("click", diceGameP2)
+
+   function diceGameP2() {
+      p2result = Math.floor(Math.random() * 6) + 1; 
+      document.getElementById("p2result").innerHTML = p2result
+     }
+
+
+ let p_winner = document.getElementById("winner") 
+
+ dice_win.addEventListener("click", winnerResult)
+
+ function winnerResult(){
+    if(p1result > p2result){
+       console.log("p1 wins")
+       p_winner.innerHTML = "P1 wins"
+    } else if (p1result < p2result){
+       console.log("p2 wins")
+       p_winner.innerHTML = "P2 wins"
+    } else {
+       console.log("draw")
+       p_winner.innerHTML = "Draw"
+    }
+ }
+
+
