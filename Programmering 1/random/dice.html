@@ -13,17 +13,29 @@
       
       <div id="container">
           <h1>Tärning</h1>
-          <input id="knapp" type = "button" value = "check">
+          <div class="knappcontainer">
+              <input id="knapp" type = "button" value = "Roll dice">
+            </div>
           
           <div class = "minibox">
               <p id="result"></p>
             </div>
+            <div id="tarninbildcontainer">
+
+                <img id="tarningbild">
+            </div>
         </div>
+
         <div id="container2">
             <h1>Mynt</h1>
-            <input id="knapp2" type = "button" value = "check">
+            <div class="knappcontainer">
+                <input id="knapp2" type = "button" value = "Flip coin">
+            </div>
             <div class = "minibox">
                 <p id="myntflip"></p>
+            </div>
+            <div id="coinflipcontainer">
+                <img id="coinflipimage">
             </div>
             
         </div>
@@ -38,6 +50,9 @@
                     </h1>
                     <input id="dice_p1" type = "button" value = "Roll dice">
                     <p id="p1result"></p>
+                    <figure>
+                        <img id="p1dice">
+                    </figure>
                 </div>
                 <div class="container3">
                     <h1 class="diceHeader">
@@ -45,10 +60,14 @@
                     </h1>
                     <input id="dice_p2" type = "button" value = "Roll dice">
                     <p id="p2result"></p>
+                    <figure>
+                        <img id="p2dice">
+                    </figure>
                 </section>
                 <h1 class="diceHeader"> Who wins?</h1>
                 <input id="dice_win" type = "button" value = "Check winner">
                   <h2 id="winner"></h2> 
+                  
             </div>
         </div>
             

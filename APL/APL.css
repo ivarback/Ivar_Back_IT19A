@@ -1,0 +1,52 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+header{
+ border:2px solid rgb(0, 0, 0);
+ text-align:center;
+ background-color: rgb(76, 4, 132);
+flex: 1;
+}
+.meny, footer{
+    border:2px solid rgb(0, 0, 0);
+    text-align:center;
+    margin: 10px;
+    background-color: rgb(76, 4, 132);
+}
+.NTILOGO{
+    width: 70px;
+    height: 70px;
+}
+section{
+    display:flex;
+}
+
+.rutor{
+    border:2px solid rgb(0, 0, 0);
+    flex: 1;
+    margin: 5px;
+    background-color: rgb(143, 1, 252);
+}
+
+h1{
+    margin: auto;
+  
+}
+
+a:link, a:visited {
+    margin: 0px 10px 0px 10px;
+    background-color: rgb(99, 10, 167);
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+a:hover, a:active {
+    background-color: rgb(143, 1, 252);
+    color: black;
+  }
+  
